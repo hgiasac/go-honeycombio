@@ -10,12 +10,11 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
 
-	"github.com/kvrhdn/go-honeycombio/internal/httputil"
+	"github.com/hgiasac/go-honeycombio/internal/httputil"
 )
 
 // Config holds all configuration options for the client.
@@ -177,7 +176,7 @@ type honeycombioError struct {
 }
 
 func attemptToExtractHoneycombioError(bodyReader io.Reader) string {
-	body, err := ioutil.ReadAll(bodyReader)
+	body, err := io.ReadAll(bodyReader)
 	if err != nil {
 		return ""
 	}

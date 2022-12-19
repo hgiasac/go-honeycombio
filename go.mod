@@ -1,4 +1,4 @@
-module github.com/kvrhdn/go-honeycombio
+module github.com/hgiasac/go-honeycombio
 
 go 1.16
 
