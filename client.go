@@ -15,7 +15,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/kvrhdn/go-honeycombio/internal/httputil"
+	"github.com/hasura/go-honeycombio/internal/httputil"
 )
 
 // Config holds all configuration options for the client.

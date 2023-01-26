@@ -63,7 +63,7 @@ To properly setup the GitHub Actions, add the following secrets:
 
 Since this is a library, no binaries have to be built. Only a new tag should be created with the semantic version in the form `vMAJOR.MINOR.PATCH`.
 
-- Create [a new release on GitHub](https://github.com/kvrhdn/go-honeycombio/releases/new)
+- Create [a new release on GitHub](https://github.com/hasura/go-honeycombio/releases/new)
 - The tag and release title should be of the format `vMAJOR.MINOR.PATCH`
 - When the release is published a tag will also be created
-- Tags are automatically indexed by [pkg.go.dev/github.com/kvrhdn/go-honeycombio](https://pkg.go.dev/github.com/kvrhdn/go-honeycombio). If not, visit `pkg.go.dev/github.com/kvrhdn/go-honeycombio@<the new tag>` and request an update.
+- Tags are automatically indexed by [pkg.go.dev/github.com/hasura/go-honeycombio](https://pkg.go.dev/github.com/hasura/go-honeycombio). If not, visit `pkg.go.dev/github.com/hasura/go-honeycombio@<the new tag>` and request an update.
